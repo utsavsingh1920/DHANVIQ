@@ -453,7 +453,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
             Expanded(
               child: ListView(
-                physics: const BouncingScrollPhysics(),
+                physics: const ClampingScrollPhysics(),
 
                 padding: const EdgeInsets.fromLTRB(18, 2, 18, 118),
 
