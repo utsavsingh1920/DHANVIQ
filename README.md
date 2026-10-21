@@ -1,4 +1,4 @@
-# <img src="assets/images/dhanviq_logo.png" alt="DHANVIQ Logo" width="42" align="center" /> DHANVIQ
+# <img src="assets/dhanviq_icon.png" alt="DHANVIQ Icon" width="44" align="center" /> DHANVIQ
 
 ### Track. Save. Grow.
 
@@ -19,91 +19,110 @@ DHANVIQ is a personal finance management application built with Flutter and Dart
 
 <p align="center">
   <img src="screenshots/01_splash.jpeg" alt="DHANVIQ Splash Screen" width="220"/>
+  &nbsp;&nbsp;
   <img src="screenshots/02_home.jpeg" alt="DHANVIQ Home Dashboard" width="220"/>
 </p>
 
 <p align="center">
-  <em>Small Steps. Bigger Dreams. — Track, Save and Grow with DHANVIQ.</em>
+  <em>Track your money. Build better habits. Work toward your goals.</em>
 </p>
+
+---
 
 ## ✨ Features
 
-- **Home Dashboard** — View your balance, monthly savings and recent transactions.
-- **Income Tracking** — Record income with categories, dates and payment methods.
-- **Expense Management** — Record and organize daily expenses.
-- **Transaction History** — Review transactions with available search and filtering.
-- **Financial Insights** — Explore income, expenses and category-wise spending charts.
-- **Monthly Budgeting** — Set category-based spending limits.
-- **Savings Goals** — Set financial goals and monitor progress.
-- **Profile Management** — Manage your profile details.
-- **Settings** — Access account, appearance, currency, notification and privacy preferences.
-- **Local Data Storage** — Keep supported financial data on the device according to the app's implementation.
+- **Home Dashboard** — View your balance, financial summary and recent transactions.
+- **Income Tracking** — Record income and organize entries.
+- **Expense Management** — Track and categorize everyday expenses.
+- **Transaction History** — Review recorded transactions and use available search or filtering options.
+- **Financial Insights** — Understand spending through visual analytics.
+- **Monthly Budgeting** — Set budgets and monitor spending limits.
+- **Savings Goals** — Create financial goals and track progress.
+- **Profile Management** — View and manage profile details.
+- **Settings** — Access available account, notification, privacy and app preferences.
+- **Local Storage** — Persist supported app data locally, according to the implementation.
 
 ## 🖼️ Screenshots
 
-### 1. Home Dashboard
+### 01. Splash Screen
 
 <p align="center">
-  <img src="screenshots/02_home.jpeg" alt="Home Dashboard" width="260"/>
+  <img src="screenshots/01_splash.jpeg" alt="DHANVIQ Splash Screen" width="250"/>
 </p>
 
-### 2. Transactions
+### 02. Home Dashboard
 
 <p align="center">
-  <img src="screenshots/03_transactions.jpeg" alt="Transaction History" width="260"/>
+  <img src="screenshots/02_home.jpeg" alt="DHANVIQ Home Dashboard" width="250"/>
 </p>
 
-### 3. Add Income & Expense
+### 03. Transactions
 
 <p align="center">
-  <img src="screenshots/04_add_income.jpeg" alt="Add Income" width="240"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/05_add_expense.jpeg" alt="Add Expense" width="240"/>
+  <img src="screenshots/03_transactions.jpeg" alt="Transaction History" width="250"/>
 </p>
 
-### 4. Financial Insights
+### 04. Add Income
 
 <p align="center">
-  <img src="screenshots/06_insights.jpeg" alt="Financial Insights" width="260"/>
+  <img src="screenshots/04_add_income.jpeg" alt="Add Income Screen" width="250"/>
 </p>
 
-### 5. Monthly Budget
+### 05. Add Expense
 
 <p align="center">
-  <img src="screenshots/07_budget.jpeg" alt="Monthly Budget" width="260"/>
+  <img src="screenshots/05_add_expense.jpeg" alt="Add Expense Screen" width="250"/>
 </p>
 
-### 6. Savings Goals
+### 06. Financial Insights
 
 <p align="center">
-  <img src="screenshots/08_goals.jpeg" alt="Savings Goals" width="260"/>
+  <img src="screenshots/06_insights.jpeg" alt="Financial Insights" width="250"/>
 </p>
 
-### 7. Settings & Profile
+### 07. Monthly Budget
 
 <p align="center">
-  <img src="screenshots/09_settings.jpeg" alt="Settings" width="240"/>
-  &nbsp;&nbsp;
-  <img src="screenshots/10_profile.jpeg" alt="Profile" width="240"/>
+  <img src="screenshots/07_budget.jpeg" alt="Monthly Budget" width="250"/>
 </p>
+
+### 08. Savings Goals
+
+<p align="center">
+  <img src="screenshots/08_goals.jpeg" alt="Savings Goals" width="250"/>
+</p>
+
+### 09. Settings
+
+<p align="center">
+  <img src="screenshots/09_settings.jpeg" alt="Settings Screen" width="250"/>
+</p>
+
+### 10. Profile
+
+<p align="center">
+  <img src="screenshots/10_profile.jpeg" alt="Profile Screen" width="250"/>
+</p>
+
+---
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| Flutter | Cross-platform UI framework |
+| Flutter | Mobile application UI framework |
 | Dart | Application programming language |
-| SharedPreferences / local storage | Local persistence, as implemented in the project |
-| Android | Mobile deployment target |
+| SharedPreferences / local storage | Local persistence, as implemented |
+| Android | Mobile platform |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - Flutter SDK
-- Dart SDK (included with Flutter)
+- Dart SDK
 - Android Studio or Visual Studio Code
-- Android emulator or a physical Android device
+- Android emulator or physical Android device
 
 ### Installation
 
@@ -113,7 +132,7 @@ DHANVIQ is a personal finance management application built with Flutter and Dart
 git clone https://github.com/utsavsingh1920/DHANVIQ.git
 ```
 
-**2. Open the project directory**
+**2. Navigate to the project directory**
 
 ```bash
 cd DHANVIQ
@@ -137,9 +156,10 @@ flutter run
 DHANVIQ/
 ├── android/
 ├── assets/
-│   └── images/
-│       └── dhanviq_logo.png
+│   └── dhanviq_icon.png
 ├── lib/
+│   ├── home/
+│   └── settings/
 ├── screenshots/
 │   ├── 01_splash.jpeg
 │   ├── 02_home.jpeg
@@ -156,9 +176,9 @@ DHANVIQ/
 └── README.md
 ```
 
-## 🎯 Vision
+## 🎯 Project Vision
 
-DHANVIQ aims to make personal finance management simpler by bringing everyday money tracking, budgeting, savings goals and spending insights into one convenient application.
+DHANVIQ aims to make personal finance management simpler by bringing income tracking, expense management, budgeting, savings goals and financial insights together in one convenient application.
 
 ## 👨‍💻 Developer
 
@@ -167,6 +187,9 @@ Built with Flutter and Dart.
 ---
 
 <p align="center">
-  <strong>DHANVIQ</strong><br/>
-  <em>A Smarter You, Brighter Tomorrow.</em>
+  <img src="assets/dhanviq_icon.png" alt="DHANVIQ" width="60"/>
+  <br/>
+  <strong>DHANVIQ</strong>
+  <br/>
+  <em>Track Better. Save Smarter. Grow Confidently.</em>
 </p>
